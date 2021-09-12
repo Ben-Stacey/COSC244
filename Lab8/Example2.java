@@ -1,4 +1,4 @@
-
+package Lab8;
 public class Example2 {                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     public static void main(String[] args) {                                                                                                                                                                                               
        Fruit f1 = new Fruit("Banana", 3);                                                                                                                                                                                                  

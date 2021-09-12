@@ -1,4 +1,5 @@
-//Example1.java                                                                                                                                                                                                                           
+//Example1.java  
+package Lab8;                                                                                                                                                                                                                         
                                                                                                                                                                                                                                            
 public class Example1 {                                                                                                                                                                                                                   
                                                                                                                                                                                                                                            
