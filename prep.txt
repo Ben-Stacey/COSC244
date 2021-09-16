@@ -1,31 +1,26 @@
-1. ^
+Q1 - An InputStreamReader is bridge from byte streams to character streams: It reads bytesand decodes them into characters using a specified charset
 
-2. FileInputStream is meant for reading streams of raw bytes such as image data. For reading streams of characters, consider using FileReader.
+Q2 - Consider wrapping an InputStreamReader whithin buferedReader
 
-3. FileInputStream(File file)
+Q3 - Readline and it returns a string
 
-4. read() and it returns the total number of bytes read into the buffer, or -1 if there is no more data because the end of the file has been reached.
+Q4 - Pritns a string and terminates a line
 
-5. This class is the superclass of all classes that filter output streams. These streams sit on top of an already existing output stream (the underlying output stream) which it uses as its basic sink of data, but possibly transforming the data along the way or providing additional functionality.
+Q5 - Creates a server socket, bound to the specified port
 
-6. FilterOutputStream(OutputStream out)
+Q6 - Listens for a connection to be made to this socket and accepts it. Returns a new socket
 
-7. write()
+Q7 - socket()
 
-8. close()
+Q8 - Returns an input stream for this socket
 
-9.
+Q9 - getOutputStream()
 
-public class data{
-       public static void main(String[] args){
-              String firstArg;
-              int secondArg;
+Q10 - Allocates a Date object and initializes it so that it represents the time at which it was allocated, measured to the nearest millisecond.
 
-              if(args.length > 0){
-                firstArg = args[0];
-                if(int i = 0; i < Integer.parseInt(args[1]); i++){
-                       System.out.println(firstArg);
-                 }
-              }
-       }
-}
+Q11 -
+
+Date date = new Date();
+System.out.print(date.toString());
+
+Q12- Its showing the user how to correctly use the program in the terminal <port> being the port, ad [host] being the IP address
