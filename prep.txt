@@ -1,0 +1,31 @@
+1. ^
+
+2. FileInputStream is meant for reading streams of raw bytes such as image data. For reading streams of characters, consider using FileReader.
+
+3. FileInputStream(File file)
+
+4. read() and it returns the total number of bytes read into the buffer, or -1 if there is no more data because the end of the file has been reached.
+
+5. This class is the superclass of all classes that filter output streams. These streams sit on top of an already existing output stream (the underlying output stream) which it uses as its basic sink of data, but possibly transforming the data along the way or providing additional functionality.
+
+6. FilterOutputStream(OutputStream out)
+
+7. write()
+
+8. close()
+
+9.
+
+public class data{
+       public static void main(String[] args){
+              String firstArg;
+              int secondArg;
+
+              if(args.length > 0){
+                firstArg = args[0];
+                if(int i = 0; i < Integer.parseInt(args[1]); i++){
+                       System.out.println(firstArg);
+                 }
+              }
+       }
+}
