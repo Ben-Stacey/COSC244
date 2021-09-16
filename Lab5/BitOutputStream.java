@@ -1,3 +1,4 @@
+package Lab5;
 import java.io.*;
 
 /**
@@ -70,6 +71,7 @@ public class BitOutputStream extends FilterOutputStream {
     *@param  bf the value to write.
     *@throws  IOException if an I/O exception occurs
     */
+   @Override
    public void write(int bf) throws IOException {
       int bitsToWrite;// how many bits left to write
       int capacity;// how many bits fit in write buffer
@@ -130,6 +132,7 @@ public class BitOutputStream extends FilterOutputStream {
     *
     *@throws  IOException  if an I/O exception occurs.
     */
+   @Override
    public void close() throws IOException {
       if (bitsInCache != 0) {
          out.write(buffer);

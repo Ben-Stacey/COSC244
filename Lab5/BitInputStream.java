@@ -1,3 +1,4 @@
+package Lab5;
 import java.io.*;
 
 /**
@@ -65,6 +66,7 @@ public class BitInputStream extends FilterInputStream {
     *         stream is reached.
     * @throws IOException if an I/O error occurs. 
     */
+   @Override
    public int read() throws IOException {
 
       int bitField = 0;    // what we're going to return to caller

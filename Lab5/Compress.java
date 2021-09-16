@@ -1,3 +1,4 @@
+package Lab5;
 /**
  * This class performs LZW compression on data read from stdin.  It
  * sends the compressed output to stdout using a BitOutputStream which
