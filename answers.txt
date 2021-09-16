@@ -1,0 +1,40 @@
+Q1 inputStream
+
+Q2 read()
+
+Q3 int
+
+Q4 -1
+
+Q5 printStream
+
+Q6 print()
+
+Q7 int 
+
+Q8 -
+
+import java.util.Scanner;
+
+public class read{
+       public static void main(String[]args){
+              Scanner scan = new Scanner(System.in);
+              int s = scan.nextInt();
+              System.out.println(s);
+       }
+}
+
+Q9 nextLine()
+
+Q10 String and -1
+
+Q11 -
+
+Scanner scan = new Scanner(System.in);
+int s = scan.nextInt();
+
+Q12 hasNext()
+
+Q13 
+
+Q14 nextToken() and StringTokenizer
