@@ -1,4 +1,6 @@
-7import java.io.*;
+package Lab7;
+
+import java.io.*;
 import java.net.*;
 import java.util.*;
 
@@ -12,7 +14,7 @@ public class TCPExample {
         input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
     }
 
-    public void startReceiving() throws Exception{
+    public void startRecording() throws Exception{
         String line;
         while((line = input.readLine()) != null){
             System.out.println(line);

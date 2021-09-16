@@ -1,0 +1,26 @@
+Q1 - An InputStreamReader is bridge from byte streams to character streams: It reads bytesand decodes them into characters using a specified charset
+
+Q2 - Consider wrapping an InputStreamReader whithin buferedReader
+
+Q3 - Readline and it returns a string
+
+Q4 - Pritns a string and terminates a line
+
+Q5 - Creates a server socket, bound to the specified port
+
+Q6 - Listens for a connection to be made to this socket and accepts it. Returns a new socket
+
+Q7 - socket()
+
+Q8 - Returns an input stream for this socket
+
+Q9 - getOutputStream()
+
+Q10 - Allocates a Date object and initializes it so that it represents the time at which it was allocated, measured to the nearest millisecond.
+
+Q11 -
+
+Date date = new Date();
+System.out.print(date.toString());
+
+Q12- Its showing the user how to correctly use the program in the terminal <port> being the port, ad [host] being the IP address

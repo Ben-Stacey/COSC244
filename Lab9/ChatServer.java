@@ -1,3 +1,4 @@
+package Lab9;
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -54,10 +55,12 @@ public class ChatServer{
             
         }
 
+        @Override
         public String toString(){
             return id;
         }
 
+        @Override
         public void run(){
             try{
                 send("Welcome! You are " + this + ".");

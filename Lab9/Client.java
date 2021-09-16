@@ -1,6 +1,5 @@
-import java.io.*;
+package Lab9;
 import java.net.*;
-import java.util.*;
 
 public class Client {
     public static void main(String[]args){
