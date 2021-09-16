@@ -1,26 +1,36 @@
-Q1 - An InputStreamReader is bridge from byte streams to character streams: It reads bytesand decodes them into characters using a specified charset
+Q1 - The Synchronsied keyword is needed in order to allow only one thread at a  time into a particular section of code so that data doesnt get correupted
 
-Q2 - Consider wrapping an InputStreamReader whithin buferedReader
+Q2 - new MultiServer().start()
 
-Q3 - Readline and it returns a string
+Q3 -
 
-Q4 - Pritns a string and terminates a line
+public void run(){
+       Scanner stdin = new Scanner(System.in);
+       while(stdin.hasNextLine()){
+           String line = stdin.nextLine();
+       }
+}
 
-Q5 - Creates a server socket, bound to the specified port
+Q4 - ChatServer started
 
-Q6 - Listens for a connection to be made to this socket and accepts it. Returns a new socket
+Q5 - Accepted connected from client_1
 
-Q7 - socket()
+Q6 - Welcome you are client_1
 
-Q8 - Returns an input stream for this socket
+Q7 - accepted connection from client_2
 
-Q9 - getOutputStream()
+Q8 - welcome you are client_1
 
-Q10 - Allocates a Date object and initializes it so that it represents the time at which it was allocated, measured to the nearest millisecond.
+Q9 - client_1: Hello
 
-Q11 -
+Q10 - client_1: Hello
 
-Date date = new Date();
-System.out.print(date.toString());
+Q11 - Sending 'Hello' to: [client_1, client_2, client3];
 
-Q12- Its showing the user how to correctly use the program in the terminal <port> being the port, ad [host] being the IP address
+Q12 - client_3 closed connection!
+
+Q13 - client_1: and its message
+
+Q14 - client 3 is no longer included in where the server is sending to
+
+Q15 - client 4
