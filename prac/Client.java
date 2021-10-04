@@ -1,4 +1,4 @@
-package Lab9;
+package prac;
 import java.net.*;
 
 public class Client {

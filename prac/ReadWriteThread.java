@@ -1,4 +1,4 @@
-package Lab9;
+package prac;
 import java.io.*;
 
 public class ReadWriteThread extends Thread{

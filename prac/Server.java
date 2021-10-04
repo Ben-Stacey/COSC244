@@ -1,4 +1,4 @@
-package Lab8;
+package prac;
 import java.net.*;
 
 public class Server {
