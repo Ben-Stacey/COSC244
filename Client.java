@@ -1,6 +1,4 @@
-import java.io.*;
 import java.net.*;
-import java.util.*;
 
 public class Client {
     public static void main(String[]args){
@@ -8,8 +6,8 @@ public class Client {
             int port = Integer.parseInt(args[0]);
             Socket socket = new Socket(args[1], port);
             System.err.println("Connected to " + args[1] + ", port: " + port);
-            new ReadWriteThread(socket.getInputStream(), System.out).start();
-            new ReadWriteThread(System.in, socket.getOutputStream()).start();
+            new ReadWriteThreadOriginal(socket.getInputStream(), System.out).start();
+            new ReadWriteThreadOriginal(System.in, socket.getOutputStream()).start();
             
         }catch(Exception e){
             e.printStackTrace();
